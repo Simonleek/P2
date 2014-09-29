@@ -79,3 +79,10 @@ h3
 		padding: 5px 3%;
 		text-align: right;
 }
+a:link{
+	color: #FFFFFF;
+}
+a:visited
+{
+	color: #FFFFFF;
+}

@@ -45,7 +45,7 @@
 						<input id="submit" name="submit" type="submit" value="Submit" > <button  type="button" onclick="clearForm();return false;">Reset</button>
 					</div><br /><hr>
 					<p>This comic is saying that the password in the top frames "Tr0ub4dor&3" is easier for password cracking software to guess because it has less entropy than "correcthorsebatterystaple" and also more difficult for a human to remember, leading to insecure practices like writing the password down on a post-it attached to the monitor.</p>
-					<p><img id="Pic" src="password_strength.png" /> </p>
+					<p><a href="http://xkcd.com/936/"> <img id="Pic" src="password_strength.png" /> </a></p>
 					<hr>
 					<div id="logs"  >
 					Optional Application Log:<br />
@@ -53,7 +53,7 @@
 					</div>
 			</div>
 			<div id="columnSpace">&nbsp;</div>
-			<div id="Footer" >Copyright &copy; www.SimonLeeToronto.me 2014</div>
+			<div id="Footer"> <a href="http://p1.simonleetoronto.me">Copyright &copy; www.SimonLeeToronto.me 2014</a></div>
 		</div>
 	</div>	
 	</form>
