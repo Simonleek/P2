@@ -1,4 +1,4 @@
-
+	//v2.0
 	//this function limits the length of text enters in text box
 	function limitText(limitField, limitCount, limitNum) {
 		if (limitField.value.length > limitNum) {

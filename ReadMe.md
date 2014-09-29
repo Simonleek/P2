@@ -30,6 +30,8 @@ query string in the URL defeats the purpose of this feature. I understand that S
 query string allows user to submit string in the # of Words field, and error checking as such was not part of the requirement...
 Anyway, I have submitted a "Get" version of the code in my GitHub in case it is required. 
 
+v2.0 > version number that is ready for presentation. Sept 28/2014
+
 ## Outside code
 Although XKCD_Pwd_logic.php has a string array that holds 10 words, the program will go to 
 http://randomword.setgetgo.com/get.php to fetch for random word one at a time. 

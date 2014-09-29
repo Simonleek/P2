@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>PHP Basic: XKCD style password</title>
+  <title>PHP Basic: XKCD style password v2.0</title>
 	<script  src="XKCD_Pwd_logic.js"></script>
 	<?php require('XKCD_Pwd_logic.php'); ?>
 	<link href="P2CSS.css" rel="stylesheet" type="text/css">

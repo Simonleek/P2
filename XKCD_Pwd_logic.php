@@ -1,5 +1,5 @@
 <?php  
-	//main body
+	//main body v2.0
 	$log = ""; //log valuable used to capture local application log 
 	$log =  writeLog("Application Starts.");  
 	
