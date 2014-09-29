@@ -1,0 +1,80 @@
+@charset "utf-8";
+#Header
+{
+	text-align: Center;
+	margin: 0 0;
+	background: #FFF ;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+}
+body 
+{
+	margin:0;
+	padding:0;
+	font: 90% aral, helvetica, sans-serif;
+	background: #387A9B;
+	color: #333;
+}
+h1
+{
+	background: #D36832;
+	color: #FFF;
+	margin: 0;
+	padding: .5em 3%
+	bordeer-bottom: 5px solid #387A9B;
+}
+h2
+{
+	text-align: center;
+	margin-top: 0;
+}
+h3
+{
+	text-align: left;
+	margin-top: 0;
+}
+#Container
+{
+	background-color:#C3C7B1;
+}
+#Container2
+{
+	background-color:#C3C7B1;
+}
+#columnSpace
+{
+	width: 10% ;
+	float:left;
+	margin: 1em 0 1em 3%;
+}
+#main
+{
+	width:80%;
+	float: left;
+	margin: 12m 3%;
+}
+#footnote
+{
+		clear: both;
+		background #387A9B;
+		color: #FFFFFF;
+		text-align: center;
+}
+#options
+{
+	text-align: right;
+}
+#Pic{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+#Footer
+{
+		clear: both;
+		background #387A9B;
+		color: #FFFFFF;
+		padding: 5px 3%;
+		text-align: right;
+}
