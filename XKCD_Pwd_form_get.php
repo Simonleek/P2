@@ -8,7 +8,7 @@
 	<link href="P2CSS.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<form name="mainForm" id="mainForm" method="post" action=<?php echo $_SERVER['PHP_SELF'];?>>
+	<form name="mainForm" id="mainForm" method="get" action=<?php echo $_SERVER['PHP_SELF'];?>>
 		<div id="Header"><h1>xkcd Password Generator</h1></div>
 		<div id="Container"> 
 			<div id="Container2">
