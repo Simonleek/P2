@@ -96,8 +96,8 @@
 	function getWord ($PasswordArray, &$log) 
 	{
 		$log =  $log . writeLog("Enter fetch word function...");
-		$_localString = ""
-		$log =  $log . writeLog("fetch word from local library: $_localString");
+		$_localString = "";
+		
 		if (count($PasswordArray) % 2 == 1) {
 			$log =  $log . writeLog("getting word from online api...");
 			$_localString = trim(@file_get_contents("http://randomword.setgetgo.com/get.php"));
@@ -105,7 +105,10 @@
 				$_localString = getLocalRandomWord();
 				$log =  $log . writeLog("Unable to connect to default web API; get word from local library");
 			}
-		} else { $_localString = getLocalRandomWord();}
+		} else { 
+			$log =  $log . writeLog("fetch word from local library");
+			$_localString = getLocalRandomWord();
+		}
 		//the following logic is for me to practice array, reference as parameter, and recursive function call. 
 		// the number of word in the password is limited to 10 because I have a small array of words built in this application 
 		// 10 words only in local function getLocalRandomWord() if user requested 11 words and they the application API is off-line 
