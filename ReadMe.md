@@ -10,7 +10,7 @@ XKCD_Pwd_form.php is the main form.  It is linked to Javascript file (client sid
 and PHP file (Server side logic) XKCD_Pwd_logic.php.  CSS file, P2CSS.css, is used. 
 
 ## Demo
-N/A
+http://www.screencast.com/t/DTI4yPay
 
 ## Details for teaching team
 This web page allows user to request for a password with 10 words or below. Optional separator, number and symbol
