@@ -1,4 +1,4 @@
-# PHP Basics
+# PHP Basics: HKCD Password Generator
 
 ## Live URL
 <http://p2.simonleetoronto.me>
